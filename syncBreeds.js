@@ -12,4 +12,8 @@ const breedDetails = function(breed) {
 
 // get the return value right away from the function
 const bombay = breedDetails('Bombay');
-console.log(bombay); //=> prints out the description for that breed
+// console.log(bombay); //=> prints out the description for that breed
+
+
+// export the function
+module.exports = breedDetails;
